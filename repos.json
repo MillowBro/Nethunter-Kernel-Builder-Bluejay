@@ -1,9 +1,10 @@
-[  {
+[
+  {
     "kernelSource": {
-      "name": "gta4xl",
+      "name": "lineageos_kernel_samsung_gta4xl",
       "repo": "https://github.com/LineageOS/android_kernel_samsung_gta4xl",
       "branch": "lineage-22.1",
-      "device": "exynos9611-gta4xl"
+      "device": "gta4xlwifi"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -14,7 +15,7 @@
       },
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "18",
+        "branch": "11",
         "name": "clang"
       }
     ],
@@ -26,9 +27,6 @@
       "CLANG_TRIPLE": "aarch64-linux-gnu-",
       "AR": "",
       "CC": "clang"
-    },
-    "extraParams": {
-      "KEEP": ""
     }
   }
 ]
