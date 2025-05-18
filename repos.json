@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "Lineage Kernel for Tab S6 Lite WiFi",
+      "name": "Lineage_Kernel_TabS6LiteWiFi",
       "repo": "https://github.com/MillowBro/android_kernel_samsung_gta4xl",
       "branch": "lineage-22.2",
       "device": "gta4xlwifi"
