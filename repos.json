@@ -1,10 +1,9 @@
-[
-  {
+[  {
     "kernelSource": {
-      "name": "Lineage_Kernel_TabS6LiteWiFi",
-      "repo": "https://github.com/MillowBro/android_kernel_samsung_gta4xl",
-      "branch": "lineage-22.2",
-      "device": "gta4xlwifi"
+      "name": "gta4xl",
+      "repo": "https://github.com/LineageOS/android_kernel_samsung_gta4xl",
+      "branch": "lineage-22.1",
+      "device": "exynos9611-gta4xlwifi"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -14,8 +13,8 @@
         "name": "gas"
       },
       {
-        "repo": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/",
-        "branch": "master",
+        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+        "branch": "18",
         "name": "clang"
       }
     ],
@@ -27,6 +26,9 @@
       "CLANG_TRIPLE": "aarch64-linux-gnu-",
       "AR": "",
       "CC": "clang"
+    },
+    "extraParams": {
+      "KEEP": ""
     }
   }
 ]
