@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "lineageos_kernel_samsung_gta4xl",
-      "repo": "https://github.com/LineageOS/android_kernel_samsung_gta4xl",
-      "branch": "lineage-22.1",
+      "name": "Lineage Kernel for Tab S6 Lite WiFi",
+      "repo": "https://github.com/MillowBro/android_kernel_samsung_gta4xl",
+      "branch": "lineage-22.2",
       "device": "gta4xlwifi"
     },
     "withKernelSU": false,
@@ -14,8 +14,8 @@
         "name": "gas"
       },
       {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
+        "repo": "https://github.com/ClangBuiltLinux/android-clang",
+        "branch": "master",
         "name": "clang"
       }
     ],
